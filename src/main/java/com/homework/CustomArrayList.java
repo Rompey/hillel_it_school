@@ -1,8 +1,7 @@
 package com.homework;
 
 import java.util.*;
-import java.util.ArrayList;
-import java.util.function.Consumer;
+
 
 public class CustomArrayList<E> implements List<E> {
 
@@ -34,7 +33,6 @@ public class CustomArrayList<E> implements List<E> {
         return Arrays.copyOf(elementData, size);
     }
 
-    @SuppressWarnings("unchecked")
     @Override
     public <T> T[] toArray(T[] a) {
         //noinspection ConstantConditions
