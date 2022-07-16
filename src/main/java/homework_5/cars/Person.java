@@ -13,6 +13,8 @@ import lombok.ToString;
 public class Person {
     private String name;
 
+    private boolean isDriverLicence;
+
     private int age;
 
     private int penaltyPeriod;
